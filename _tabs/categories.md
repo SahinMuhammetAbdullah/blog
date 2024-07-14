@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: katagoriler
 icon: fas fa-stream
 order: 1
 ---
