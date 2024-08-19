@@ -14,9 +14,9 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
-  - type: Whatsapp
+  - type: WhatsApp
     icon: "fab fa-whatsapp"
-    link: "whatsapp://url?url=URL&text=TITLE"
+    link: "https://api.whatsapp.com/send?text=TITLE%20URL"
   
   - type: Linkedin
     icon: "fab fa-linkedin"

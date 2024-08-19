@@ -11,5 +11,5 @@ media_subpath: /assets/
 ---
 
 # Hello Word
-
+> [!INFO]
 > Hi, World
