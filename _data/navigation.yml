@@ -5,6 +5,8 @@ languages:
         url: /hakımda/
       - title: "Arşiv"
         url: /arsiv/
+      - title: "Projeler"
+        url: /proje/
       - title: "GitHub"
         url: https://github.com/SahinMuhammetAbdullah
       - title: "en"
@@ -15,6 +17,8 @@ languages:
         url: /about/
       - title: "Archives"
         url: /archives/
+      - title: "Project"
+        url: /project/
       - title: "GitHub"
         url: https://github.com/SahinMuhammetAbdullah
       - title: "tr-TR"
