@@ -5,10 +5,7 @@
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  url: https://x.com/SahinM_Abdullah
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>

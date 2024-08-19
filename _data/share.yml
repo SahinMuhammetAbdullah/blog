@@ -13,6 +13,10 @@ platforms:
   - type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
+
+  - type: Whatsapp
+    icon: "fab fa-whatsapp"
+    link: "whatsapp://send?url?url=URL&text=TITLE"
   
   - type: Linkedin
     icon: "fab fa-linkedin"
