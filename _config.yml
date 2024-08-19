@@ -118,13 +118,13 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: SahinMuhammetAbdullah/blog # <gh-username>/<repo>
-    repo_id: R_kgDOMWQYBg
-    category: Comments
-    category_id: DIC_kwDOMWQYBs4ChtJG
+    repo_id: R_kgDOMkelcQ
+    category: General
+    category_id: DIC_kwDOMkelcc4ChyWI
     mapping: pathname # optional, default to 'pathname'
     strict: 1 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
+    lang: tr # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
