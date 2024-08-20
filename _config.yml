@@ -3,13 +3,11 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: tr-TR
-languages: ["tr-TR", "en"] 
-permalink: /:categories/:year/:month/:day/:title/
+
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Istanbul
 
@@ -41,7 +39,7 @@ social:
     - https://github.com/SahinMuhammetAbdullah # change to your github homepage
     - https://medium.com/@m.sahinabdullah
     # Uncomment below to add more social links
-    # - https://twitter.com/username
+    - https://twitter.com/SahinM_Abdullah
     # - https://www.facebook.com/username
 
 # Site Verification Settings
@@ -96,7 +94,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/images/side/avatar.png
+avatar: assets/img/avatar.png
 favicon: assets/img/favicons/favicon.ico
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -148,7 +146,7 @@ pwa:
 paginate: 15
 
 # The base URL of your site
-baseurl: ""
+baseurl: "muhammetabdullahsahin.com.tr"
 
 # ------------ The following options are not recommended to be modified ------------------
 
