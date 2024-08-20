@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "23a9dc19d3bd6ac6",
+        "id": "5ecc9404e9e4850a",
         "type": "tabs",
         "children": [
           {
-            "id": "879bbb0c112fad66",
+            "id": "4ef17310831c6ca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-20-hi-post.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-20-hi-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-20-hi-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-19-hello-world.md"
+                "file": "2024-08-20-hi-post.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "879bbb0c112fad66",
+  "active": "4ef17310831c6ca8",
   "lastOpenFiles": [
-    "2024-08-19-Hi2.md",
+    "Untitled.canvas",
     "2024-08-20-hi-post.md",
-    "Untitled.md",
-    "2024-08-19-hello-world.md"
+    "2024-08-19-hello-world.md",
+    "2024-08-19-Hi2.md",
+    "Untitled.md"
   ]
 }
