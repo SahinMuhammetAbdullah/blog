@@ -146,7 +146,7 @@ pwa:
 paginate: 15
 
 # The base URL of your site
-baseurl: "muhammetabdullahsahin.com.tr"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
