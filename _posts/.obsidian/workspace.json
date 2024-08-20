@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "50d9b91ef79744f5",
+        "id": "23a9dc19d3bd6ac6",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2498e09cb1240a",
+            "id": "879bbb0c112fad66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-19-hello-world.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-19-hello-world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-19-hello-world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-08-19-hello-world.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa2498e09cb1240a",
+  "active": "90268284b9f825fe",
   "lastOpenFiles": [
-    "2024-08-20-hi-post.md"
+    "2024-08-20-hi-post.md",
+    "Untitled.md",
+    "2024-08-19-hello-world.md"
   ]
 }
