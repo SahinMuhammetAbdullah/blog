@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://muhammetabdullahsahin.com.tr/*"
-  to = "https://blog.muhammetabdullahsahin.com.tr/:splat"
-  status = 301
-  force = true
