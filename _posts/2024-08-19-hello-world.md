@@ -14,4 +14,5 @@ media_subpath: /assets/
 # Hello Word
 
 > We can create an Active Directory Lab using a single client as well but there are certain AD attacks that require two clients to perform. Depending on your use case you may skip the setup of the second 2nd client.
-{: .prompt-info }
+{: .prompt-warning }
+
