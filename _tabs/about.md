@@ -10,7 +10,7 @@ Bu içerikler oluşturmamdaki asıl sebep sektörümüzde türkçe dökümantasy
 
 
 # Sayfada Yazı Yayınlamak
-Sayfamızda sizlerde bilişim sektörü ile ilgili yazılar yayınlayarak topluluğumuza sunmak isterseniz e-posta[[mailto:m.sahinsocial@gmail.com]] üzerinden iletişim kurarak kendi yazılarınızı imzanız ile birlikte yaynlayabiliriz.
+Sayfamızda sizlerde bilişim sektörü ile ilgili yazılar yayınlayarak topluluğumuza sunmak isterseniz [e-posta][mailto:m.sahinsocial@gmail.com] üzerinden iletişim kurarak kendi yazılarınızı imzanız ile birlikte yaynlayabiliriz.
 
 # Haklar
 Site yer alan yazılarda kaynakça belirtmek zorunlu olmakla beraber içeriklerin telif hakkları ihlaline uğramaması için görsellerin ve temel bilgilerin atıflarla desteklenmesi gerekmektedir.
