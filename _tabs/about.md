@@ -16,4 +16,5 @@ Sayfamızda sizlerde bilişim sektörü ile ilgili yazılar yayınlayarak toplul
 Site yer alan yazılarda kaynakça belirtmek zorunlu olmakla beraber içeriklerin telif hakkları ihlaline uğramaması için görsellerin ve temel bilgilerin atıflarla desteklenmesi gerekmektedir.
 
 
-Site yayınlana içeriklerin oluşturulması gönülülük esasına dayanmaktadır. Her hangi bir ücret ödenmemektedir.{: .prompt-info }
+> Site yayınlana içeriklerin oluşturulması gönülülük esasına dayanmaktadır. Her hangi bir ücret ödenmemektedir.
+{: .prompt-info }
