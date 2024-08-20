@@ -4,8 +4,7 @@ description: "The blog side try with write a post"
 date: 2024-08-19 23:57:29 +0530
 categories:
   - FirstTry
-  - Hello
-  - Hi2
+  - Hi
 tags:
   - HelloWorld
 published: true
