@@ -10,8 +10,8 @@ Ben Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği öğrencisi Muhammet 
 Bu sayfada yazılım bilşim sektöründe edindiğim bilgileri sizlere aktarmaya çalışacağım.
 Bu içerikler oluşturmamdaki asıl sebep sektörde türkçe dökümantasyon kaynakların az olması.
 
-> İçeriklere Katkıda bulunmak isterseniz [e-posta](mailto:m.sahinsocial@gmail.com) adresinde iletişim kurabilirsiniz. 
+> İçeriklere Katkıda bulunmak istersenz [e-posta](mailto:m.sahinsocial@gmail.com) adresinde iletişim kurabilirsiniz. 
 {: .prompt-info }
 
-> Yayınlatmak istediğiniz içeriklerinizde telif haklarına özen gösteriniz. 
+> Yayınlatmak istediğiniz içeriklerinizde telif hakklarına özen gösteriniz. 
 {: .prompt-warning }
