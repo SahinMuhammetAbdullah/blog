@@ -13,4 +13,4 @@ published: true
 media_subpath: /assets/
 ---
 
-![banner-images|640](images/ruby-part-1/ruby-part-1-banner.png)
+![banner-images](images/ruby-part-1/ruby-part-1-banner.png){: width="640" }
