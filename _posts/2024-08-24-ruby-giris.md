@@ -10,5 +10,7 @@ tags:
   - Ruby
   - Programlama
 published: true
-media_subpath: /assets/
+media_subpath: /images/
 ---
+
+![banner-images](images/ruby-part-1/ruby-part-1-banner.png){: width="640" }
