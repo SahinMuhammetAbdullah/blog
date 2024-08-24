@@ -12,3 +12,5 @@ tags:
 published: true
 media_subpath: /images/
 ---
+
+![banner-images](images/ruby-part-1/ruby-part-1-banner.png){: width="640" }
