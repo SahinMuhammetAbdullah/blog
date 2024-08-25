@@ -13,7 +13,3 @@ order: 4
 
 > 🎯 Yayınlatmak istediğiniz içeriklerinizde telif haklarına diktat ederek iletmeniz gerekmektedir.
 {: .prompt-info }
-
-## 🌐 Sosyalmediya:
-[![LinkedIn]([icon: fas fa-info-circle])](https://linkedin.com/in/https://www.linkedin.com/in/muhammet-abdullah-sahin/) 
-
