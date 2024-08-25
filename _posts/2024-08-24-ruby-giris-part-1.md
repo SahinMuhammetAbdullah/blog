@@ -10,6 +10,8 @@ tags:
   - Programlama
 published: true
 media_subpath: /assets/
+image:
+  - path: images/ruby-part-1/ruby-giris-banner.png
 ---
 
 ![banner-image](images/ruby-part-1/ruby-giris-banner.png){: width="640" }
