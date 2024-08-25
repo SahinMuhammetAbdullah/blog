@@ -16,4 +16,4 @@ image:
 ---
 
 <!-- ![banner-image](images/ruby-part-1/ruby-giris-banner.png){: width="640" } -->
-![[banner-image|640]]
+![[ruby-giris-banner.png|640]]
