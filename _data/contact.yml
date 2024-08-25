@@ -8,9 +8,13 @@
   url: https://twitter.com/SahinM_Abdullah
 
 - type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/muhammet-abdullah-sahin/' # Fill with your Linkedin homepage
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/muhammet-abdullah-sahin/'
 
 - type: instagram
-  icon: 'fab fa-instagram'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.instagram.com/m.abdullahsahin/' # Fill with your Linkedin homepage
+  icon: 'fab fa-instagram'
+  url:  'https://www.instagram.com/m.abdullahsahin/'
+
+- type: medium
+  icon: 'fab fa-medium'
+  url:  'https://medium.com/@m.sahinabdullah'
