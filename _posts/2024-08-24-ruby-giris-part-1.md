@@ -13,7 +13,6 @@ published: true
 media_subpath: /assets/
 image:
   path: images/ruby-part-1/ruby-giris-banner.png
-  alt: image alternative text
 ---
 
 # Giriş
