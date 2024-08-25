@@ -9,6 +9,7 @@ tags:
   - Ruby
   - Programlama
 published: true
+media_subpath: /images/
 ---
 
-![banner-images](images/ruby-part-1/ruby-giris-banner.png){: width="640" }
+![banner-images](ruby-part-1/ruby-giris-banner.png){: width="640" }
