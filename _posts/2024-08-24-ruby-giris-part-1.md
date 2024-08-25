@@ -2,6 +2,7 @@
 title: "Ruby Part 1"
 description: "Ruby Programlamanın Temelleri"
 date: 2024-08-24 22:21:20 +0530
+author: <masahin>
 categories:
   - Programlama Dilleri Giriş Seviye
   - Ruby
