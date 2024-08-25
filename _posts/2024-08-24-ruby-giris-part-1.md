@@ -11,4 +11,4 @@ tags:
 published: true
 ---
 
-![banner-images](images/ruby-part-1/ruby-giris-banner.png){: width="640" }
+![banner-images](/_posts/images/ruby-part-1/ruby-giris-banner.png){: width="640" }
