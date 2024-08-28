@@ -15,9 +15,9 @@ image:
   path: images/ruby-part-1/ruby-giris-banner.png
 ---
 
-# Giriş
+## Giriş
 
-## Ruby Tarihi
+### Ruby Tarihi
 Öncelikle Ruby progrmalama dilinin tarihçesinden bahsetmek istreim.
 Ruby, Yukihiro "Matz" Matsumoto tarafından 1990'ların ortalarında Japonya'da yaratıldı ve geliştirildi. Ruby'nin ortaya çıkış amacı, programcı dostu bir dil oluşturmak ve hem fonksiyonel hem de nesne yönelimli programlama paradigmalarını destekleyen esnek bir dil yaratmaktı.
 1. 1993: Ruby'nin geliştirilmesine başlandı. Matz, mevcut dillerin (özellikle Perl, Python, Smalltalk, Eiffel ve Ada) eksikliklerini giderecek bir dil oluşturmayı hedefledi. Özellikle Perl'ün güçlü metin işleme özelliklerinden, Smalltalk'un nesne yönelimli tasarımından ve Lisp'in fonksiyonel programlama yeteneklerinden ilham aldı.
@@ -29,21 +29,21 @@ Ruby, Yukihiro "Matz" Matsumoto tarafından 1990'ların ortalarında Japonya'da 
 7. 2013: Ruby'nin 2.0 sürümü piyasaya sürüldü. Bu sürümle birlikte birçok yeni özellik ve performans iyileştirmesi getirildi. Ruby 2.x sürümleri, dilin modern yazılım geliştirme gereksinimlerine daha iyi cevap vermesini sağladı.
 8. 2020: Ruby 3.0 sürümü tanıtıldı. Bu sürüm, Ruby'nin performansını büyük ölçüde artırmayı hedefleyen "3x3" projesinin bir parçası olarak geliştirildi ve Ruby'nin hızının üç katına çıkarılması hedeflendi. Bu sürümde ayrıca eşzamanlılık (concurrency) ve paralellik (parallelism) desteği gibi önemli özellikler eklendi.
 
-## Ruby Nasıl Bir Dildir
+### Ruby Nasıl Bir Dildir
 
 Ruby, yorumlanan bir programlama dilidir. Bu, Ruby kodunun çalıştırılmadan önce derlenmediği anlamına gelir. Bunun yerine, Ruby kodu bir Ruby yorumlayıcısı tarafından satır satır işlenir ve çalıştırılır.
 
-### Yorumlanan Dillerin Özellikleri
+#### Yorumlanan Dillerin Özellikleri
 1. Anında Çalıştırma: Yorumlanan diller, kodun derlenmesini beklemeden hemen çalıştırılmasını sağlar. Bu, geliştiricilerin kodlarını hızlı bir şekilde test etmelerini ve hata ayıklamalarını kolaylaştırır.
 2. Platform Bağımsızlık: Ruby kodu, Ruby yorumlayıcısının çalıştığı her yerde çalışabilir. Farklı işletim sistemlerinde (Linux, Windows, macOS gibi) aynı kod, yorumlayıcı olduğu sürece çalıştırılabilir.
 3. Dinamiklik: Ruby, dinamik bir dildir. Bu, değişkenlerin tiplerinin çalışma zamanında belirlenmesi ve kodun esnek bir şekilde işlenebilmesi anlamına gelir. Ruby'de her şey nesnedir, bu da dinamik programlama yapısını daha güçlü kılar.
 
-#### Avantajlar
+##### Avantajlar
 1. Geliştirme süresi daha kısa (arada zeki bir yorumlayıcı var, daha az lafla çok iş).
 2. Çalışma zamanı denetlenebildiğinden "dinamik" işler çevrilebilir.
 3. Çalışma zamanı denetlenebildiğinden basit güvenlik açıkları yaşanmaz.
 4. Daha "taşınabilir" (portable); yazdığınız kodun ilgili platformda çalışması için yorumlayıcının oplatformda kurulu olması yeterli (fakat bk. lojistik).
-#### Dezavantajlar
+##### Dezavantajlar
 1. Daha yavaş
 2. Daha fazla bellek tüketimi.
 3. Çalışma zamanında yaşanan sürpriz hatalar (derlenebilseydi çalıştırmadan önceyakalanabilirdi).
@@ -51,7 +51,7 @@ Ruby, yorumlanan bir programlama dilidir. Bu, Ruby kodunun çalıştırılmadan 
 
 Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek gerekirsede:
 
-### Derlenen Dillerin Özellikleri
+#### Derlenen Dillerin Özellikleri
 1. Performans: Derlenen diller genellikle yorumlanan dillere göre daha hızlı çalışır. Derleme sırasında kod, makine diline çevrilir ve bu nedenle yürütme süresi boyunca ek bir yorumlama aşaması olmaz. Bu, yüksek performanslı uygulamalar için avantaj sağlar.
 2. Hata Kontrolü: Derleyiciler, kodu çalıştırmadan önce birçok sözdizimi ve dilbilgisi hatasını tespit eder. Bu, hata ayıklama sürecini daha kolay hale getirir çünkü hatalar derleme sırasında belirlenir ve çalıştırma aşamasında ortaya çıkmaz.
 3. Optimizasyon: Derleyiciler, kodun performansını artırmak için çeşitli optimizasyonlar yapabilir. Bu optimizasyonlar, kodun daha verimli çalışmasını sağlar ve performansı artırabilir.
@@ -59,22 +59,22 @@ Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek ge
 5. Bağımsız Yürütme: Derlenen bir program, çalışma zamanında bir yorumlayıcıya ihtiyaç duymaz. Yürütülebilir dosya doğrudan işletim sistemi tarafından çalıştırılabilir. Bu, dağıtım ve kurulum süreçlerinde kolaylık sağlar.
 6. Bellek Yönetimi: Derlenen diller genellikle bellek yönetimini geliştiricinin sorumluluğuna bırakır. Bu, geliştiricilerin bellek kullanımını doğrudan kontrol etmelerine olanak tanır, ancak bellek sızıntıları ve diğer bellek yönetimi sorunları ile ilgili riskleri artırabilir.
 
-#### Avantajlar
+##### Avantajlar
 1. Çalışma zamanında yorumlama olmadığından (veya minimize edildiğinden) çok daha hızlı.
 2. Bellek kullanımı daha az.
 3. Sorunlar program çalışmadan önce (derleme aşamasında) yakalanabilir.
 4. Lojistiği daha kolay; hedef platform için derlenmiş programın kurulumu yeterli, ayrıca biryorumlayıcı kurmanıza gerek yok.
-#### Dezavantajlar
+##### Dezavantajlar
 1. Yazılması daha maliyetli (derleyiciyi mutlu etmek zorundasınız, tip bildirimleri gibi dahaayrıntılı tarifler gerekiyor).
 2. Çalışma zamanı üzerinde denetiminiz olmadığından "dinamik" işler çeviremezsiniz.
 3. (C gibi en azından bir kısım dilde) Çalışma zamanında güvenlik açıkları.
 
-# Kurulumlar
+## Kurulumlar
 Ruby programlamadan önce kurmamız gereken araçlara göz atalım. Bunlar:
 1. Entegre Geliştirme Ortamı(IDE) olarak açık kaynak VS Code'u kullanacağız.
 2. Ruby
 
-## IDE kurulumu
+### IDE kurulumu
 Öndelikle [VS Code](https://code.visualstudio.com/download) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gerekiyor.
 ![VSCode](images/ruby-part-1/goruntu-1.png){: .normal }
 
@@ -83,22 +83,22 @@ Bilgisayarımızın indirilenler klasörüne gidip kurlulum dosyamızı çalış
 1. Aşama
 ![VSCodeSetup-1](images/ruby-part-1/ruby-giris-part-1-setup-1.png){: .normal }
 `Anlaşmayı kabul ediyorum` işaretleyip `sonraki` diyerek devam ediyoruz.
-1. Aşama
+2. Aşama
 ![VSCodeSetup-2](images/ruby-part-1/ruby-giris-part-1-setup-2.png){: .normal }
 Burada isterseniz Visual Studio Code'u farklı bir dizine kurabilirsiniz. Kurmak istediğiniz dizini seçtikten sonra `sonraki` diyerek devam ediyoruz.
-1. Aşama
+3. Aşama
 ![VSCodeSetup-3](images/ruby-part-1/ruby-giris-part-1-setup-3.png){: .normal }
 Burada hiç bir şey yapmadan `sonraki` diyerek devam ediyoruz.
-1. Aşama
+4. Aşama
 ![VSCodeSetup-4](images/ruby-part-1/ruby-giris-part-1-setup-4.png){: .normal }
 Bura önemli olan iki işlem var
    - [x] Windows Gezgini bağlam menüsüne "Code ile Aç" eylemini ekle.
    - [x] Windows Gezgnı dizin bağam menüsüne "Code ile Aç" eylerninı ekle.
 Bunlar sizde işaretli gelmeyecek. Bunkları işaretleyerek devam edersek sonrasında bizlere kolaylık sağlayacaktır. `sonraki` diyerek devam ediyoruz.
-1. Aşama
+5. Aşama
 ![VSCodeSetup-5](images/ruby-part-1/ruby-giris-part-1-setup-5.png){: .normal }
 `Kur` diyerek devam ediyoruz.
-1. Aşama
+6. Aşama
 ![VSCodeSetup-6](images/ruby-part-1/ruby-giris-part-1-setup-6.png){: .normal }
 `Bitti` diyerek kurulum aşamalarımızı sonlandırıyoruz.
 
@@ -117,7 +117,7 @@ Açılan pencerede arama yerine `cwd` yazıyoruz. **Terminal > Integrated: Cwd**
 - Word Wrap
 Açılan pencerede arama yerine `word wraop` yazıyoruz. **Editor: Word Wrap** başlığı alttında `on` seçimini yapıyoruz. Sonrasında **Editor: Word Wrap Colum** başlığı alttında `120` yazarak bu işlemi de tamamlamış oluyoruz. Böylece Editorümüz de yazdığımız kod satırları sürekli sağa doğru kaymayıp 120 sütün genişliğe gelirken bir aşağı satuıra kayacak ve bizim için sürekli sağa kaydırmadan kodlarımızı bir bütün olarak görmeye başlayacağız.
 
-## Ruby Kurululumu
+### Ruby Kurululumu
 Öndelikle [Ruby](https://www.ruby-lang.org/tr/downloads/) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gereken sayfaları seçmemiz gerekmekte.
 ![Ruby](images/ruby-part-1/goruntu-3.png){: .normal }
 Ben anlatımımda Windows bir makine kullandığım için sizlere Windows üzerinden göstereceğim ama MacOs ve Linux cihazlar için bağlantıdaki adresten kurulum aşamalarını takip edebilirsiniz.
@@ -156,9 +156,9 @@ ruby --version
 ```
 komutu ile doğrı şekilde kurulup kurulmadığını teyit edebiliriz.
 
-# İlk Kod
+## İlk Kod
 
-## Ruby Hello World
+### Ruby Hello World
 
 İlk bir dil ile çalışacağımız zaman genel olarak ilk projemi `Hello, World!` yazısını terminalde yazdırmak olur.
 
@@ -181,14 +181,14 @@ yazıp `Enter` basarak çalıştırabiliriz. Sonrasında terminalimizde aşağı
 Burada bitiriyorum. Devamı için takipte kalın👋
 
 ---
-# Kaynakçalar
+## Kaynakçalar
 - [Derlenen Diller](https://en.wikipedia.org/wiki/Compiler)
 - [Yorumlanan Diller](https://en.wikipedia.org/wiki/Interpreter_(computing))
 - [Ruby'nin Tarhi](https://tr.wikipedia.org/wiki/Ruby)
 
-# Tavsiye Ettiğim Kaynaklar
+## Tavsiye Ettiğim Kaynaklar
 Benimde öğrencilik yıllarımda aldığım kurslar ve takip ettiğim kaynaklar:
 - [Sıfırdan İleri Seviye Ruby Programlama Dili - Erim Icel](https://www.udemy.com/course/sifirdan-ileri-seviye-ruby-programlama-dili/)
 - [RUBY PROGRAMLAMA - Ender Kuş](https://www.google.com.tr/books/edition/RUBY_PROGRAMLAMA/os5TDwAAQBAJ?hl=tr&gbpv=0&kptab=overview/)
 
-# İçeriğimizin Devamı
+## İçeriğimizin Devamı
