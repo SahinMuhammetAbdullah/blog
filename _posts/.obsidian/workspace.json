@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-24-ruby-giris-part-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-24-ruby-giris-part-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-19-hello-world.md",
+                "file": "2024-08-24-ruby-giris-part-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-19-hello-world.md"
+                "file": "2024-08-24-ruby-giris-part-1.md"
               }
             }
           }
@@ -148,6 +148,27 @@
   },
   "active": "879bbb0c112fad66",
   "lastOpenFiles": [
+    "images/ruby-part-1/goruntu-4.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-7.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-6.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-5.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-2.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-3.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-4.png",
+    "images/ruby-part-1/ruby-giris-part-1-setup-ruby-1.png",
+    "images/ruby-part-1/goruntu-2.png",
+    "images/ruby-part-1/goruntu-3.png",
+    "images copy/ruby-part-2",
+    "images copy/ruby-part-1/ruby-giris-part-1-vscode-wordwrap.png",
+    "images copy/ruby-part-1",
+    "images copy",
+    "images/images/ruby-part-2",
+    "images/images/ruby-part-1",
+    "images/images",
+    "images/ruby-part-1/images/ruby-part-2",
+    "images/ruby-part-1/images/ruby-part-1",
+    "images/ruby-part-1/images",
+    "images/ruby-part-2",
     "2024-08-19-Hi2.md",
     "2024-08-20-hi-post.md",
     "Untitled.md",
