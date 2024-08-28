@@ -176,6 +176,8 @@ Yorum satırı 3
 
 Çıktılarda da görebileceğimiz üzere `# puts "Yorum Satırı 2"` ifadesi yorumlayacı tarafından işlem görmez ve herhangi bir dönüş vermez yani terminalde `Yorum Satırı 2` ifadesini göremeyiz.
 
+Yorum satrıları aslında çok önemlidir. Çalıştığınız projelerde yazdığınız kodlarınızda yorum satırları da yazarak, tekrar kodlara döndüğünüzde sizlere ve sizle beraber çalışacak ekip arkadaşlarınıza  yapmış olduğunuz fonksiyonların, classların hangi amaca hizmet ettiği hakkında bilgi sahabi olması adına önem arzeder.
+
 ## Değişkenler
 
 Ruby'de değişken tanımı yapılışını örnekler üzerinden inceleyelim:
