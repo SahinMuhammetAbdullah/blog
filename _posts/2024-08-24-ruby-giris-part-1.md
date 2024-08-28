@@ -109,12 +109,12 @@ Burada biray yapıyı kurcalaya bilirsiniz mesela tema seçebilirsinin `Get Star
 ![VSCodeOpenSettings](images/ruby-part-1/ruby-giris-part-1-vscode-settings.png){: .normal }
 Buradan `Settings`'i açıyoruz.
 
-- CWD
 ![VSCodeCWD](images/ruby-part-1/ruby-giris-part-1-vscode-cwd.png){: .normal }
+- CWD
 Açılan pencerede arama yerine `cwd` yazıyoruz. **Terminal > Integrated: Cwd** başlığı alttında `${fileDirname}` yazıyoruz. Böylece terminalimizi kısa yol açma tuş kombinasyonu `Ctrl + Shift + "` kombinasyonunu açık bir dosyada uyguladığımızda o dosya hangi dizinde ise terminalimiz o dizinde açılacaktır.
 
-- Word Wrap
 ![VSCodeWordWrap](images/ruby-part-1/ruby-giris-part-1-vscode-wordwrap.png){: .normal }
+- Word Wrap
 Açılan pencerede arama yerine `word wraop` yazıyoruz. **Editor: Word Wrap** başlığı alttında `on` seçimini yapıyoruz. Sonrasında **Editor: Word Wrap Colum** başlığı alttında `120` yazarak bu işlemi de tamamlamış oluyoruz. Böylece Editorümüz de yazdığımız kod satırları sürekli sağa doğru kaymayıp 120 sütün genişliğe gelirken bir aşağı satuıra kayacak ve bizim için sürekli sağa kaydırmadan kodlarımızı bir bütün olarak görmeye başlayacağız.
 
 ## Ruby Kurululumu
@@ -151,7 +151,7 @@ Kurulumlar tamamlandiktan sonra tekrar `Enter`'a basarak konsol ekranını kapat
 
 Bu aşamamalardan sonra kurulumumuz tamamlanmış olmakla beraber Ruby Programlama dili artık cihazımızda kurulu durumdadır. Kontrokl etmek amacıyla terminalimizi açarak;
 
-```Shell
+```shell
 ruby --version
 ```
 komutu ile doğrı şekilde kurulup kurulmadığını teyit edebiliriz.
@@ -163,12 +163,12 @@ komutu ile doğrı şekilde kurulup kurulmadığını teyit edebiliriz.
 Bu eğitimde öğreneceğimiz Ruby Programlama dili için yeni bir klasör oluşturalım. Çalışmalarımı bu dizinde yapmaya başlayalım.
 
 VS Code ile içine girdiğimiz dizinde yeni bir dosya oluşturuyoruz. Ruby dosyaları `.rb` ile birmesi gerekir. `Hello, World!` prjemiz için ilk olarak `rubyHelloWorld.rb` adında yeni bir dosya oluşturuyoruz. İçerisine:
-```Ruby
+```ruby
 puts "Hello, World!"
 ```
 yazıyoruz ve terminalimizi açarak (dosya sayfada açikken`Ctrl + Shift + "` ile açabilirsiniz) terminale:
 
-```Shell
+```shell
 ruby rubyHelloWorld.rb
 ```
 
