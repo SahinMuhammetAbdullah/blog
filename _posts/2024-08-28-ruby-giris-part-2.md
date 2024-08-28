@@ -21,15 +21,15 @@ Bu bölümde sizlere Ruby'de bulunan temel objelerden ve veri yapılarından bah
 
 Öncelikle genel olarak başlılar şeklinde inceleyelim;
 
-:puts Metodu
-:print Metodu
-:p Metodu
-:Basit Aritmatik İşlemler
-:Yorum Satırları
-:Değişkenler
-:Sabitler
-:String Interpoklation
-:Nesne ve Class Metodları
-:Veri tipi Değiştirme
-:Kullanıcıdan Veri Alma
-:Boolean Veri Tipi
+- puts Metodu
+- print Metodu
+- p Metodu
+- Basit Aritmatik İşlemler
+- Yorum Satırları
+- Değişkenler
+- Sabitler
+- String Interpoklation
+- Nesne ve Class Metodları
+- Veri tipi Değiştirme
+- Kullanıcıdan Veri Alma
+- Boolean Veri Tipi
