@@ -156,7 +156,9 @@ ruby --version
 ```
 komutu ile doğrı şekilde kurulup kurulmadığını teyit edebiliriz.
 
-# Ruby Hello World
+# İlk Kod
+
+## Ruby Hello World
 
 İlk bir dil ile çalışacağımız zaman genel olarak ilk projemi `Hello, World!` yazısını terminalde yazdırmak olur.
 
