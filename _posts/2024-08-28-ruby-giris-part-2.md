@@ -143,11 +143,11 @@ puts 6 % 3
 
 Yukarıdaki çıktılar üzerinden değerlendirmelerimiz yapalım. Sizlerinde gördüğü üzere toplama çıkarma ve çarpma işlemlerinde her şey olması gerektiği gibiyken bölme işleminde `11 / 2 = 5,5` gibi bir değer görmemiz gerekirdi ama burada karşımıza veri tipleri devreye girmekte. Kısaca sayıların veri tiplerine değinelim
 
-1. Integer **Tam Sayı** Veri Tipi
+- Integer **Tam Sayı** Veri Tipi
 
 Tam sayıları tutan bir veri tipidir. Eğer bir integer değişken oluşturmak istersek `sayi = 10` olarak tanımlamazı yetelidir. Ruby bunu integer değer olarak algılayacaktır.
 
-2. Float **Ondalıklı Sayı** Veri Tipi
+- Float **Ondalıklı Sayı** Veri Tipi
 
 Ondalıklı sayıları turan bir veri tipidir. Eğer bir float değişkeni oluşturmak istersek `pi = 3.14` olarak tanımlamamız yeterlidir. Ruby bunu float olarak değer olarak algılayacaktır.
 
