@@ -1,5 +1,5 @@
 ---
-title: "Ruby Part 1"
+title: "Ruby Part 1: Kurulumlar"
 description: "Ruby Programlamanın Temelleri"
 date: 2024-08-24 22:21:20 +0530
 author: <masahin>
@@ -171,13 +171,13 @@ Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımd
 
 ![RubySetup-2](images/ruby-part-1/ruby-giris-part-1-setup-ruby-2.png)
 
-Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışabilmesi adına `Install for all user` seçeneği ile devam edeceğim.
+Burada lisans koşullarını kabul ederek `Next` butonuna basıyoruz.
 
 3. Aşama
 
 ![RubySetup-3](images/ruby-part-1/ruby-giris-part-1-setup-ruby-3.png)
 
-Burada isterseniz Ruby'nin kurulacağı dizini değiştirebilirsiniz. Ben `Instal` diyerek devam etmeyi tercih ediyorum.
+Burada isterseniz Ruby'nin kurulacağı dizini değiştirebilirsiniz. Ben `Install` diyerek devam etmeyi tercih ediyorum.
 
 4. Aşama
 
@@ -189,7 +189,7 @@ Burada `Next` diyerek devam ediyoruz.
 
 ![RubySetup-5](images/ruby-part-1/ruby-giris-part-1-setup-ruby-5.png)
 
-Kurulum tamamlandıktan sonra `Finish` diyerek konsol ekranın açılmasını bekjliyoruz.
+Kurulum tamamlandıktan sonra `Finish` diyerek konsol ekranın açılmasını bekliyoruz.
 
 6. Aşama
 
@@ -203,12 +203,12 @@ Açılan konsol ekranında gördüğünün gibi `1,2,3` yazarak `Enter`'a basara
 
 Kurulumlar tamamlandiktan sonra tekrar `Enter`'a basarak konsol ekranını kapatabiliriz.
 
-Bu aşamamalardan sonra kurulumumuz tamamlanmış olmakla beraber Ruby Programlama dili artık cihazımızda kurulu durumdadır. Kontrokl etmek amacıyla terminalimizi açarak;
+Bu aşamamalardan sonra kurulumumuz tamamlanmış olmakla beraber Ruby Programlama dili artık cihazımızda kurulu durumdadır. Kontrol etmek amacıyla terminalimizi açarak;
 
 ```shell
 ruby --version
 ```
-komutu ile doğrı şekilde kurulup kurulmadığını teyit edebiliriz.
+komutu ile doğru şekilde kurulup kurulmadığını teyit edebiliriz.
 
 ## İlk Kod
 
@@ -224,7 +224,7 @@ VS Code ile içine girdiğimiz dizinde yeni bir dosya oluşturuyoruz. Ruby dosya
 puts "Hello, World!"
 ```
 
-yazıyoruz ve terminalimizi açarak (dosya sayfada açikken`Ctrl + Shift + "` ile açabilirsiniz) terminale:
+yazıyoruz ve terminalimizi açarak (dosya sayfada açıkken `Ctrl + Shift + "` ile açabilirsiniz) terminale:
 
 ```shell
 ruby rubyHelloWorld.rb

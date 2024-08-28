@@ -1,5 +1,5 @@
 ---
-title: "Ruby Part 2"
+title: "Ruby Part 2: Temel Objeler ve Veri yapıları"
 description: "Ruby Programlamanın Temelleri"
 date: 2024-08-28 21:30:20 +0530
 author: <masahin>
@@ -36,7 +36,7 @@ Bu bölümde sizlere Ruby'de bulunan temel objelerden ve veri yapılarından bah
 
 ## puts Metodu
 
-`puts` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metoddur. Bir örnekle incelemek gerekirse:
+`puts` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metodudur. Bir örnekle incelemek gerekirse:
 
 ```ruby
 puts "Bu bir örnektir."
@@ -72,10 +72,11 @@ Kaçış karakterlerine değinmişken açıklamak isterim:
 
 Temel kaçış karakterlerinde bazıları burada yer almaktadır. Diğer kaçış karakterlerini incelemekl isterseniz [buradan](https://vigo.github.io/ruby101-kitap/bolum-04/03-string/) inceleyebilirsiniz.
 
-Bu anlatımdan sonra şunu anlayabiliriz: `puts` `\n` kaçış karaktyeri içermektedir
+Bu anlatımdan sonra şunu anlayabiliriz: `puts` `\n` kaçış karaktyeri içermektedir.
+
 ## print Metodu
 
-`print` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metoddur. Bir örnekle incelemek gerekirse:
+`print` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metodudur. Bir örnekle incelemek gerekirse:
 
 ```ruby
 print "merhaba "
@@ -86,7 +87,7 @@ Eğer bu kodun çıktısını incelerseniz sonuç `merhaba dünya` şeklinde ola
 
 ## p Metodu
 
-`print` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metoddur. Bir örnekle incelemek gerekirse:
+`p` terminal üzerinden kendisine verilen verileri yazdırarak bize dönüş sağlayan metoddur. Bir örnekle incelemek gerekirse:
 
 ```ruby
 p "merhaba dünya"
@@ -99,7 +100,7 @@ dünya"
 Burada şu çıkarıma varırız; `p` metodu içeriğine gelen ifadeleri oldu gibi dönüş verir. Böylelikle bizlerde ikinci `p` motodunun çıktısında gördüğümüz `\n` kaçış karakteri ve her ikisinde de olan `""` işaretini gözlemlemiş olduk.
 `p` metodu ile ilgili şunuda söyleyebiliriz **`\n` kaçış karakterini içerir**
 
-## Basit Aritmatik İşlemler
+## Basit Aritmetik İşlemler
 
 Burada aritmetik işlemleri göreceğiz. Örnekler üzerinden gidelim:
 
@@ -155,7 +156,7 @@ Sonuç olarak Ruby'de `11 / 2` işleminin sonucunu `5,5` olarak olarak görmek i
 
 Ruby'de `**` aritmetik işlemi üstel almayi ifade eder. Üstel bir işlem gerçekleştirecek isek bunu `2 ** 5` şeklinde ifade edebilmekteyiz.
 
-Ruby'de `%` operatörü ile aritmatik işlemler yaptığımızda şunu ifade ederiz; `5 % 2` bunun değeri 5'in 2'ye bölümünden kalan değeri döndürmek anlamına gelmektedir. Örneğimizde yer alan ifade `5 % 2 = 1` alacaktır. 5, 2'ye tam bölünmez ve kalan ise 1 olur bu şekilde bizler dönüş değerini 1 olara görmnekteyiz.
+Ruby'de `%` operatörü ile aritmatik işlemler yaptığımızda şunu ifade ederiz; `5 % 2` bunun değeri 5'in 2'ye bölümünden kalan değeri döndürmek anlamına gelmektedir. Örneğimizde yer alan ifade `5 % 2 = 1` alacaktır. 5, 2'ye tam bölünmez ve kalan ise 1 olur bu şekilde bizler dönüş değerini 1 olarak görmekteyiz.
 
 ## Yorum Satırları
 
@@ -174,7 +175,7 @@ Yorum satırı 1
 Yorum satırı 3
 ```
 
-Çıktılarda da görebileceğimiz üzere `# puts "Yorum Satırı 2"` ifadesi yorumlayacı tarafından işlem görmez ve herhangi bir dönüş vermez yani terminalde `Yorum Satırı 2` ifadesini göremeyiz.
+Çıktılarda da görebileceğimiz üzere `# puts "Yorum Satırı 2"` ifadesi yorumlayıcı tarafından işlem görmez ve herhangi bir dönüş vermez yani terminalde `Yorum Satırı 2` ifadesini göremeyiz.
 
 Yorum satrıları aslında çok önemlidir. Çalıştığınız projelerde yazdığınız kodlarınızda yorum satırları da yazarak, tekrar kodlara döndüğünüzde sizlere ve sizle beraber çalışacak ekip arkadaşlarınıza  yapmış olduğunuz fonksiyonların, classların hangi amaca hizmet ettiği hakkında bilgi sahabi olması için önem arzeder.
 
@@ -200,25 +201,26 @@ bilişim diyarı
 596.97
 ```
 
-Çıktılarda görüldüğü üzere değişkenlere tip belirtmesek de Ruby' bınları yorumlayıp değişkenin hangi veri tipinde olduğunu algılayabilmekte. Bunu anladığının göstergesi ise `yas + 15` sonucunun **30** `fiyat * 3` ise **596.97** olarak dönmeleri tamsayıların ve ondalıklı sayıların dönen değerlerini olması gerektiği gibi dönürmesinden anlaşılmaktadır.
+Çıktılarda görüldüğü üzere değişkenlere tip belirtmesek de Ruby bunları yorumlayıp değişkenin hangi veri tipinde olduğunu algılayabilmekte. Bunu anladığının göstergesi ise `yas + 15` sonucunun **30** `fiyat * 3` ise **596.97** olarak dönmeleri tamsayıların ve ondalıklı sayıların dönen değerlerini olması gerektiği gibi dönürmesinden anlaşılmaktadır.
 
 Değişkenler `degiskenIsmi = deger` şeklinde olmalıdır.
 
-Deüişkenleri paralel olarak da ataya biliriz:
+Değişkenleri paralel olarak da ataya biliriz:
 
 ```ruby
 a, b, c = 5, "merhaba", 6.8
 puts a, b, c
 ```
 
-Çikti:
+Çıktı:
+
 ```text
 5
 merhaba
 6.8
 ```
 
-Çıktıda da görüleceği üzere değişkenlerimizi paralel bir şekilde de ataya biliriz ama bunu yapmak ilerleyen süreçlerde risk barındırabilir yani beklenmedik hatalarla karşılaşabiliriz. Bu yüzde bu şekilde atama yapmanızı tavsiye etmem
+Çıktıda da görüleceği üzere değişkenlerimizi paralel bir şekilde de ataya biliriz ama bunu yapmak ilerleyen süreçlerde risk barındırabilir yani beklenmedik hatalarla karşılaşabiliriz. Bu yüzde bu şekilde atama yapmanızı tavsiye etmem.
 
 ## Sabirler
 
@@ -262,12 +264,12 @@ Adım Bilişim Diyarı, yaşım 25
 
 ## Nesne ve Class Metodları
 
-Bu bölümde sizlere neselerde ve classlarda var olan hazır metotların bazılarından bahsedeceğim. Örneklerimiz üzerinden devam edelim:
+Bu bölümde sizlere nesnelerde ve classlarda var olan hazır metotların bazılarından bahsedeceğim. Örneklerimiz üzerinden devam edelim:
 
 ```ruby
-puts "Merhaba Dünya".length #uzunluk metodu (karakter sayısını verir)
-puts "Merhaba Dünya".upcase #harfleri büyütür
-puts "Merhaba Dünya".downcase #harfleri küçülütr
+puts "Merhaba Dünya".length
+puts "Merhaba Dünya".upcase
+puts "Merhaba Dünya".downcase
 
 isim = "Bilişim Diyarı"
 
@@ -344,7 +346,7 @@ Float
 3
 ```
 
-Bu çıktılardan anlaşılacağı üzere küsüratlı bir sayayı tam sayı tip dönüşümü uyguladığımızad bizlere sayının yuvarlanmış biçimini değil, olndalıklı kısmının değerden direkt çıkartarak döndürdüğünü görürüz.
+Bu çıktılardan anlaşılacağı üzere küsuratlı bir sayayı tam sayı tip dönüşümü uyguladığımızda bizlere sayının yuvarlanmış biçimini değil, ondalıklı kısmının değerden direkt çıkartarak döndürdüğünü görürüz.
 
 ## Kullanıcıdan Veri Alma
 
@@ -368,7 +370,7 @@ Hoşgeldin Bilişim Diyarı, yaşınız kaç?
 Yaşınız 25
 ```
 
-Burada gets kullanıcıdan veriyi alırken alınan veride `\n` kaçış karekteri ile beraber gelir. Bundan kurtulmak için ise `.chomp` kullanırız.
+Burada `gets` kullanıcıdan veriyi alırken alınan veride `\n` kaçış karakteri ile beraber gelir. Bundan kurtulmak için ise `.chomp` kullanırız.
 
 Eğer `.chomp` kullanmamış olsak çıktımız:
 
