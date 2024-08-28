@@ -18,6 +18,7 @@ image:
 ## Giriş
 
 ### Ruby Tarihi
+
 Öncelikle Ruby progrmalama dilinin tarihçesinden bahsetmek istreim.
 Ruby, Yukihiro "Matz" Matsumoto tarafından 1990'ların ortalarında Japonya'da yaratıldı ve geliştirildi. Ruby'nin ortaya çıkış amacı, programcı dostu bir dil oluşturmak ve hem fonksiyonel hem de nesne yönelimli programlama paradigmalarını destekleyen esnek bir dil yaratmaktı.
 1. 1993: Ruby'nin geliştirilmesine başlandı. Matz, mevcut dillerin (özellikle Perl, Python, Smalltalk, Eiffel ve Ada) eksikliklerini giderecek bir dil oluşturmayı hedefledi. Özellikle Perl'ün güçlü metin işleme özelliklerinden, Smalltalk'un nesne yönelimli tasarımından ve Lisp'in fonksiyonel programlama yeteneklerinden ilham aldı.
@@ -34,16 +35,20 @@ Ruby, Yukihiro "Matz" Matsumoto tarafından 1990'ların ortalarında Japonya'da 
 Ruby, yorumlanan bir programlama dilidir. Bu, Ruby kodunun çalıştırılmadan önce derlenmediği anlamına gelir. Bunun yerine, Ruby kodu bir Ruby yorumlayıcısı tarafından satır satır işlenir ve çalıştırılır.
 
 #### Yorumlanan Dillerin Özellikleri
+
 1. Anında Çalıştırma: Yorumlanan diller, kodun derlenmesini beklemeden hemen çalıştırılmasını sağlar. Bu, geliştiricilerin kodlarını hızlı bir şekilde test etmelerini ve hata ayıklamalarını kolaylaştırır.
 2. Platform Bağımsızlık: Ruby kodu, Ruby yorumlayıcısının çalıştığı her yerde çalışabilir. Farklı işletim sistemlerinde (Linux, Windows, macOS gibi) aynı kod, yorumlayıcı olduğu sürece çalıştırılabilir.
 3. Dinamiklik: Ruby, dinamik bir dildir. Bu, değişkenlerin tiplerinin çalışma zamanında belirlenmesi ve kodun esnek bir şekilde işlenebilmesi anlamına gelir. Ruby'de her şey nesnedir, bu da dinamik programlama yapısını daha güçlü kılar.
 
 ##### Avantajlar
+
 1. Geliştirme süresi daha kısa (arada zeki bir yorumlayıcı var, daha az lafla çok iş).
 2. Çalışma zamanı denetlenebildiğinden "dinamik" işler çevrilebilir.
 3. Çalışma zamanı denetlenebildiğinden basit güvenlik açıkları yaşanmaz.
 4. Daha "taşınabilir" (portable); yazdığınız kodun ilgili platformda çalışması için yorumlayıcının oplatformda kurulu olması yeterli (fakat bk. lojistik).
+
 ##### Dezavantajlar
+
 1. Daha yavaş
 2. Daha fazla bellek tüketimi.
 3. Çalışma zamanında yaşanan sürpriz hatalar (derlenebilseydi çalıştırmadan önceyakalanabilirdi).
@@ -52,6 +57,7 @@ Ruby, yorumlanan bir programlama dilidir. Bu, Ruby kodunun çalıştırılmadan 
 Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek gerekirsede:
 
 #### Derlenen Dillerin Özellikleri
+
 1. Performans: Derlenen diller genellikle yorumlanan dillere göre daha hızlı çalışır. Derleme sırasında kod, makine diline çevrilir ve bu nedenle yürütme süresi boyunca ek bir yorumlama aşaması olmaz. Bu, yüksek performanslı uygulamalar için avantaj sağlar.
 2. Hata Kontrolü: Derleyiciler, kodu çalıştırmadan önce birçok sözdizimi ve dilbilgisi hatasını tespit eder. Bu, hata ayıklama sürecini daha kolay hale getirir çünkü hatalar derleme sırasında belirlenir ve çalıştırma aşamasında ortaya çıkmaz.
 3. Optimizasyon: Derleyiciler, kodun performansını artırmak için çeşitli optimizasyonlar yapabilir. Bu optimizasyonlar, kodun daha verimli çalışmasını sağlar ve performansı artırabilir.
@@ -60,21 +66,26 @@ Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek ge
 6. Bellek Yönetimi: Derlenen diller genellikle bellek yönetimini geliştiricinin sorumluluğuna bırakır. Bu, geliştiricilerin bellek kullanımını doğrudan kontrol etmelerine olanak tanır, ancak bellek sızıntıları ve diğer bellek yönetimi sorunları ile ilgili riskleri artırabilir.
 
 ##### Avantajlar
+
 1. Çalışma zamanında yorumlama olmadığından (veya minimize edildiğinden) çok daha hızlı.
 2. Bellek kullanımı daha az.
 3. Sorunlar program çalışmadan önce (derleme aşamasında) yakalanabilir.
 4. Lojistiği daha kolay; hedef platform için derlenmiş programın kurulumu yeterli, ayrıca biryorumlayıcı kurmanıza gerek yok.
+
 ##### Dezavantajlar
+
 1. Yazılması daha maliyetli (derleyiciyi mutlu etmek zorundasınız, tip bildirimleri gibi dahaayrıntılı tarifler gerekiyor).
 2. Çalışma zamanı üzerinde denetiminiz olmadığından "dinamik" işler çeviremezsiniz.
 3. (C gibi en azından bir kısım dilde) Çalışma zamanında güvenlik açıkları.
 
 ## Kurulumlar
+
 Ruby programlamadan önce kurmamız gereken araçlara göz atalım. Bunlar:
 1. Entegre Geliştirme Ortamı(IDE) olarak açık kaynak VS Code'u kullanacağız.
 2. Ruby
 
 ### IDE kurulumu
+
 Öndelikle [VS Code](https://code.visualstudio.com/download) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gerekiyor.
 ![VSCode](images/ruby-part-1/goruntu-1.png)
 
