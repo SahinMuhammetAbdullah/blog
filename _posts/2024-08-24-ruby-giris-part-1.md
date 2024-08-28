@@ -19,7 +19,7 @@ image:
 
 ### Ruby Tarihi
 
-Öncelikle Ruby progrmalama dilinin tarihçesinden bahsetmek istreim.
+Öncelikle Ruby programlama dilinin tarihçesinden bahsetmek isterim.
 Ruby, Yukihiro "Matz" Matsumoto tarafından 1990'ların ortalarında Japonya'da yaratıldı ve geliştirildi. Ruby'nin ortaya çıkış amacı, programcı dostu bir dil oluşturmak ve hem fonksiyonel hem de nesne yönelimli programlama paradigmalarını destekleyen esnek bir dil yaratmaktı.
 1. 1993: Ruby'nin geliştirilmesine başlandı. Matz, mevcut dillerin (özellikle Perl, Python, Smalltalk, Eiffel ve Ada) eksikliklerini giderecek bir dil oluşturmayı hedefledi. Özellikle Perl'ün güçlü metin işleme özelliklerinden, Smalltalk'un nesne yönelimli tasarımından ve Lisp'in fonksiyonel programlama yeteneklerinden ilham aldı.
 2. 1995: Ruby'nin ilk kamuya açık sürümü yayımlandı. Bu sürümde Ruby, tamamen nesne yönelimli bir dil olarak tanıtıldı. Ruby'de her şey, sınıflar ve nesnelerle temsil edilir; hatta temel veri tipleri bile nesnedir. Bu, Ruby'nin esnek ve tutarlı bir dil olmasını sağladı.
@@ -45,16 +45,16 @@ Ruby, yorumlanan bir programlama dilidir. Bu, Ruby kodunun çalıştırılmadan 
 1. Geliştirme süresi daha kısa (arada zeki bir yorumlayıcı var, daha az lafla çok iş).
 2. Çalışma zamanı denetlenebildiğinden "dinamik" işler çevrilebilir.
 3. Çalışma zamanı denetlenebildiğinden basit güvenlik açıkları yaşanmaz.
-4. Daha "taşınabilir" (portable); yazdığınız kodun ilgili platformda çalışması için yorumlayıcının oplatformda kurulu olması yeterli (fakat bk. lojistik).
+4. Daha "taşınabilir" (portable); yazdığınız kodun ilgili platformda çalışması için yorumlayıcının o platformda kurulu olması yeterli (fakat bk. lojistik).
 
 ##### Dezavantajlar
 
 1. Daha yavaş
 2. Daha fazla bellek tüketimi.
-3. Çalışma zamanında yaşanan sürpriz hatalar (derlenebilseydi çalıştırmadan önceyakalanabilirdi).
+3. Çalışma zamanında yaşanan sürpriz hatalar (derlenebilseydi çalıştırmadan önce yakalanabilirdi).
 4. Artan lojistik yük (yorumlayıcı kurulumu gerekiyor).
 
-Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek gerekirsede:
+Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek gerekirse de:
 
 #### Derlenen Dillerin Özellikleri
 
@@ -70,11 +70,11 @@ Yorumlanan dillere değinmişken derlenen dillerin özelliklerinden bahsetmek ge
 1. Çalışma zamanında yorumlama olmadığından (veya minimize edildiğinden) çok daha hızlı.
 2. Bellek kullanımı daha az.
 3. Sorunlar program çalışmadan önce (derleme aşamasında) yakalanabilir.
-4. Lojistiği daha kolay; hedef platform için derlenmiş programın kurulumu yeterli, ayrıca biryorumlayıcı kurmanıza gerek yok.
+4. Lojistiği daha kolay; hedef platform için derlenmiş programın kurulumu yeterli, ayrıca bir yorumlayıcı kurmanıza gerek yok.
 
 ##### Dezavantajlar
 
-1. Yazılması daha maliyetli (derleyiciyi mutlu etmek zorundasınız, tip bildirimleri gibi dahaayrıntılı tarifler gerekiyor).
+1. Yazılması daha maliyetli (derleyiciyi mutlu etmek zorundasınız, tip bildirimleri gibi daha ayrıntılı tarifler gerekiyor).
 2. Çalışma zamanı üzerinde denetiminiz olmadığından "dinamik" işler çeviremezsiniz.
 3. (C gibi en azından bir kısım dilde) Çalışma zamanında güvenlik açıkları.
 
@@ -89,7 +89,7 @@ Ruby programlamadan önce kurmamız gereken araçlara göz atalım. Bunlar:
 Öndelikle [VS Code](https://code.visualstudio.com/download) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gerekiyor.
 ![VSCode](images/ruby-part-1/goruntu-1.png)
 
-Bilgisayarımızın indirilenler klasörüne gidip kurlulum dosyamızı çalıştırıyoruz.
+Bilgisayarımızın indirilenler klasörüne gidip kurulum dosyamızı çalıştırıyoruz.
 
 1. Aşama
 
@@ -115,7 +115,7 @@ Burada hiç bir şey yapmadan `sonraki` diyerek devam ediyoruz.
 
 Bura önemli olan iki işlem var
    - [x] Windows Gezgini bağlam menüsüne "Code ile Aç" eylemini ekle.
-   - [x] Windows Gezgnı dizin bağam menüsüne "Code ile Aç" eylerninı ekle.
+   - [x] Windows Gezgnı dizin bağam menüsüne "Code ile Aç" eylemini ekle.
 Bunlar sizde işaretli gelmeyecek. Bunkları işaretleyerek devam edersek sonrasında bizlere kolaylık sağlayacaktır. `sonraki` diyerek devam ediyoruz.
 
 5. Aşama
