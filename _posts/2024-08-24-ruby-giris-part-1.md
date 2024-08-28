@@ -76,77 +76,77 @@ Ruby programlamadan önce kurmamız gereken araçlara göz atalım. Bunlar:
 
 ## IDE kurulumu
 Öndelikle [VS Code](https://code.visualstudio.com/download) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gerekiyor.
-![VSCode](images/ruby-part-1/goruntu-1.png){: .normal, w="640" }
+![VSCode](images/ruby-part-1/goruntu-1.png){: .normal }
 
 Bilgisayarımızın indirilenler klasörüne gidip kurlulum dosyamızı çalıştırıyoruz.
 
 1. Aşama
-![VSCodeSetup-1](images/ruby-part-1/ruby-giris-part-1-setup-1.png){: .normal, w="640" }
+![VSCodeSetup-1](images/ruby-part-1/ruby-giris-part-1-setup-1.png){: .normal }
 `Anlaşmayı kabul ediyorum` işaretleyip `sonraki` diyerek devam ediyoruz.
 1. Aşama
-![VSCodeSetup-2](images/ruby-part-1/ruby-giris-part-1-setup-2.png){: .normal, w="640" }
+![VSCodeSetup-2](images/ruby-part-1/ruby-giris-part-1-setup-2.png){: .normal }
 Burada isterseniz Visual Studio Code'u farklı bir dizine kurabilirsiniz. Kurmak istediğiniz dizini seçtikten sonra `sonraki` diyerek devam ediyoruz.
 1. Aşama
-![VSCodeSetup-3](images/ruby-part-1/ruby-giris-part-1-setup-3.png){: .normal, w="640" }
+![VSCodeSetup-3](images/ruby-part-1/ruby-giris-part-1-setup-3.png){: .normal }
 Burada hiç bir şey yapmadan `sonraki` diyerek devam ediyoruz.
 1. Aşama
-![VSCodeSetup-4](images/ruby-part-1/ruby-giris-part-1-setup-4.png){: .normal, w="640" }
+![VSCodeSetup-4](images/ruby-part-1/ruby-giris-part-1-setup-4.png){: .normal }
 Bura önemli olan iki işlem var
    - [x] Windows Gezgini bağlam menüsüne "Code ile Aç" eylemini ekle.
    - [x] Windows Gezgnı dizin bağam menüsüne "Code ile Aç" eylerninı ekle.
 Bunlar sizde işaretli gelmeyecek. Bunkları işaretleyerek devam edersek sonrasında bizlere kolaylık sağlayacaktır. `sonraki` diyerek devam ediyoruz.
 1. Aşama
-![VSCodeSetup-5](images/ruby-part-1/ruby-giris-part-1-setup-5.png){: .normal, w="640" }
+![VSCodeSetup-5](images/ruby-part-1/ruby-giris-part-1-setup-5.png){: .normal }
 `Kur` diyerek devam ediyoruz.
 1. Aşama
-![VSCodeSetup-6](images/ruby-part-1/ruby-giris-part-1-setup-6.png){: .normal, w="640" }
+![VSCodeSetup-6](images/ruby-part-1/ruby-giris-part-1-setup-6.png){: .normal }
 `Bitti` diyerek kurulum aşamalarımızı sonlandırıyoruz.
 
 Bu aşamalardan sonra VS Code IDE'mizi başlatıyoruz.
-![VSCodeOpen](images/ruby-part-1/ruby-giris-part-1-open-vscode.png){: .normal, w="640" }
+![VSCodeOpen](images/ruby-part-1/ruby-giris-part-1-open-vscode.png){: .normal }
 Burada biray yapıyı kurcalaya bilirsiniz mesela tema seçebilirsinin `Get Started` ile temel özellekleri inceleye bilrsiniz. Ben bu aşamada sizlere bir kaç ayar göstereceğim.
 
-![VSCodeOpenSettings](images/ruby-part-1/ruby-giris-part-1-vscode-settings.png){: .normal, w="640" }
+![VSCodeOpenSettings](images/ruby-part-1/ruby-giris-part-1-vscode-settings.png){: .normal }
 Buradan `Settings`'i açıyoruz.
 
 - CWD
-![VSCodeCWD](images/ruby-part-1/ruby-giris-part-1-vscode-cwd.png){: .normal, w="640" }
+![VSCodeCWD](images/ruby-part-1/ruby-giris-part-1-vscode-cwd.png){: .normal }
 Açılan pencerede arama yerine `cwd` yazıyoruz. **Terminal > Integrated: Cwd** başlığı alttında `${fileDirname}` yazıyoruz. Böylece terminalimizi kısa yol açma tuş kombinasyonu `Ctrl + Shift + "` kombinasyonunu açık bir dosyada uyguladığımızda o dosya hangi dizinde ise terminalimiz o dizinde açılacaktır.
 
 - Word Wrap
-![VSCodeWordWrap](images/ruby-part-1/ruby-giris-part-1-vscode-wordwrap.png){: .normal, w="640" }
+![VSCodeWordWrap](images/ruby-part-1/ruby-giris-part-1-vscode-wordwrap.png){: .normal }
 Açılan pencerede arama yerine `word wraop` yazıyoruz. **Editor: Word Wrap** başlığı alttında `on` seçimini yapıyoruz. Sonrasında **Editor: Word Wrap Colum** başlığı alttında `120` yazarak bu işlemi de tamamlamış oluyoruz. Böylece Editorümüz de yazdığımız kod satırları sürekli sağa doğru kaymayıp 120 sütün genişliğe gelirken bir aşağı satuıra kayacak ve bizim için sürekli sağa kaydırmadan kodlarımızı bir bütün olarak görmeye başlayacağız.
 
 ## Ruby Kurululumu
 Öndelikle [Ruby](https://www.ruby-lang.org/tr/downloads/) sayfasına giderek oradan işletim sistemimize uygun olan kurulum aracını indirmemiz gereken sayfaları seçmemiz gerekmekte.
-![Ruby](images/ruby-part-1/goruntu-3.png){: .normal, w="640" }
+![Ruby](images/ruby-part-1/goruntu-3.png){: .normal }
 Ben anlatımımda Windows bir makine kullandığım için sizlere Windows üzerinden göstereceğim ama MacOs ve Linux cihazlar için bağlantıdaki adresten kurulum aşamalarını takip edebilirsiniz.
 Burada biz `RubyIntaller` a basarak [Ruby indirme](https://rubyinstaller.org/) sayfasına gidiyoruz. Açılan sayfada `Dowload` a basarak devam ediyoruz.
-![RubyInstaller](images/ruby-part-1/goruntu-2.png){: .normal, w="640" }
+![RubyInstaller](images/ruby-part-1/goruntu-2.png){: .normal }
 Sonrasında karşımıza çıkan sayfada işletim sistemimize göre (x64 veya x86 olmasına göre) en son sürümü cihazımıza indiriyoruz.
 
 Sistemimizin indirilenler klasörü altından kuruluma başlaya biliriz.
 
 1. Aşama
-![RubySetup-1](images/ruby-part-1/ruby-giris-part-1-setup-ruby-1.png){: .normal, w="640" }
+![RubySetup-1](images/ruby-part-1/ruby-giris-part-1-setup-ruby-1.png){: .normal }
 Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışa bilmesi adına `Install for all user` seçeneği ile devam edeceğim.
 2. Aşama
-![RubySetup-2](images/ruby-part-1/ruby-giris-part-1-setup-ruby-2.png){: .normal, w="640" }
+![RubySetup-2](images/ruby-part-1/ruby-giris-part-1-setup-ruby-2.png){: .normal }
 Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışa bilmesi adına `Install for all user` seçeneği ile devam edeceğim.
 3. Aşama
-![RubySetup-3](images/ruby-part-1/ruby-giris-part-1-setup-ruby-3.png){: .normal, w="640" }
+![RubySetup-3](images/ruby-part-1/ruby-giris-part-1-setup-ruby-3.png){: .normal }
 Burada isterseniz Ruby'nin kurulacağı dizini değiştirebilirsiniz. Ben `Instal` diyerek devam etmeyi tercih ediyorum.
 4. Aşama
-![RubySetup-4](images/ruby-part-1/ruby-giris-part-1-setup-ruby-4.png){: .normal, w="640" }
+![RubySetup-4](images/ruby-part-1/ruby-giris-part-1-setup-ruby-4.png){: .normal }
 Burada `Next` diyerek devam ediyoruz.
 5. Aşama
-![RubySetup-5](images/ruby-part-1/ruby-giris-part-1-setup-ruby-5.png){: .normal, w="640" }
+![RubySetup-5](images/ruby-part-1/ruby-giris-part-1-setup-ruby-5.png){: .normal }
 Kurulum tamamlandıktan sonra `Finish` diyerek konsol ekranın açılmasını bekjliyoruz.
 6. Aşama
-![RubySetup-6](images/ruby-part-1/ruby-giris-part-1-setup-ruby-6.png){: .normal, w="640" }
+![RubySetup-6](images/ruby-part-1/ruby-giris-part-1-setup-ruby-6.png){: .normal }
 Açılan konsol ekranında gördüğünün gibi `1,2,3` yazarak `Enter`'a basarak devak ediyoruz ve gerekli dosyalarımız indirilmeye başlıyor.
 7. Aşama
-![RubySetup-7](images/ruby-part-1/ruby-giris-part-1-setup-ruby-7.png){: .normal, w="640" }
+![RubySetup-7](images/ruby-part-1/ruby-giris-part-1-setup-ruby-7.png){: .normal }
 Kurulumlar tamamlandiktan sonra tekrar `Enter`'a basarak konsol ekranını kapatabiliriz.
 
 Bu aşamamalardan sonra kurulumumuz tamamlanmış olmakla beraber Ruby Programlama dili artık cihazımızda kurulu durumdadır. Kontrokl etmek amacıyla terminalimizi açarak;
@@ -174,7 +174,7 @@ ruby rubyHelloWorld.rb
 
 yazıp `Enter` basarak çalıştırabiliriz. Sonrasında terminalimizde aşağıdaki görseldeki gibi gözükecektir.
 
-![RubyHelloWorld](images/ruby-part-1/goruntu-4.png){: .normal, w="640" }
+![RubyHelloWorld](images/ruby-part-1/goruntu-4.png){: .normal }
 
 Burada bitiriyorum. Devamı için takipte kalın👋
 
