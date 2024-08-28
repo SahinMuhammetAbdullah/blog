@@ -122,7 +122,7 @@ Bunlar sizde işaretli gelmeyecek. Bunkları işaretleyerek devam edersek sonras
 Bu aşamalardan sonra VS Code IDE'mizi başlatıyoruz.
 
 ![VSCodeOpen](images/ruby-part-1/ruby-giris-part-1-open-vscode.png)
-Burada biray yapıyı kurcalaya bilirsiniz mesela tema seçebilirsinin `Get Started` ile temel özellekleri inceleye bilrsiniz. Ben bu aşamada sizlere bir kaç ayar göstereceğim.
+Burada biray yapıyı kurcalayabilirsiniz mesela tema seçebilirsinin `Get Started` ile temel özellekleri inceleyebilrsiniz. Ben bu aşamada sizlere bir kaç ayar göstereceğim.
 
 ![VSCodeOpenSettings](images/ruby-part-1/ruby-giris-part-1-vscode-settings.png)
 
@@ -148,19 +148,19 @@ Burada biz `RubyIntaller` a basarak [Ruby indirme](https://rubyinstaller.org/) s
 ![RubyInstaller](images/ruby-part-1/goruntu-2.png)
 Sonrasında karşımıza çıkan sayfada işletim sistemimize göre (x64 veya x86 olmasına göre) en son sürümü cihazımıza indiriyoruz.
 
-Sistemimizin indirilenler klasörü altından kuruluma başlaya biliriz.
+Sistemimizin indirilenler klasörü altından kuruluma başlayabiliriz.
 
 1. Aşama
 
 ![RubySetup-1](images/ruby-part-1/ruby-giris-part-1-setup-ruby-1.png)
 
-Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışa bilmesi adına `Install for all user` seçeneği ile devam edeceğim.
+Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışabilmesi adına `Install for all user` seçeneği ile devam edeceğim.
 
 2. Aşama
 
 ![RubySetup-2](images/ruby-part-1/ruby-giris-part-1-setup-ruby-2.png)
 
-Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışa bilmesi adına `Install for all user` seçeneği ile devam edeceğim.
+Burada istediğiniz seçenekle deavam edebilirsiniz. Ben tüm kullanıcılarımda çalışabilmesi adına `Install for all user` seçeneği ile devam edeceğim.
 
 3. Aşama
 
