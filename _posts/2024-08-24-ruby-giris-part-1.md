@@ -248,3 +248,5 @@ Benimde öğrencilik yıllarımda aldığım kurslar ve takip ettiğim kaynaklar
 - [RUBY PROGRAMLAMA - Ender Kuş](https://www.google.com.tr/books/edition/RUBY_PROGRAMLAMA/os5TDwAAQBAJ?hl=tr&gbpv=0&kptab=overview/)
 
 ## İçeriğimizin Devamı
+
+[Ruby Part 2](https://muhammetabdullahsahin.com.tr/posts/ruby-giris-part-2/)
