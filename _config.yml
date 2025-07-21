@@ -57,7 +57,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: G-XJ7FYT89EP # fill in your Google Analytics ID
+    id: G-R42HZDCP6X # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -98,7 +98,7 @@ avatar: assets/img/avatar.png
 favicon: assets/img/favicons/favicon.ico
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-# social_preview_image: assets/img/rich-preview.png # string, local or CORS resources
+social_preview_image: assets/img/rich-preview.png # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
